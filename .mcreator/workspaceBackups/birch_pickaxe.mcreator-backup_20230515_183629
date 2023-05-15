@@ -1,0 +1,58 @@
+{
+  "mod_elements": [
+    {
+      "name": "BirchPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/birchpickaxe/item/BirchPickaxeItem.java",
+          "src/main/resources/assets/birch_pickaxe/models/item/birch_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "BirchPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "birch_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/birch_pickaxe/recipes/crafting_table.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.birch_pickaxe.birch_pickaxe": "Birch Pickaxe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "birch_pickaxe",
+    "modName": "Birch Pickaxe",
+    "version": "1.0.0",
+    "author": "Clark, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "modElementsPackage": "net.mcreator.birchpickaxe",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "birch_pickaxe",
+  "version": "1.0.0",
+  "name": "Birch Pickaxe",
+  "authors": [
+    "Clark, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Academic Free License v3.0",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.birchpickaxe.BirchPickaxeMod"
+    ],
+    "client": [
+      "net.mcreator.birchpickaxe.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "birch_pickaxe.mixins.json"
+  ]
+}

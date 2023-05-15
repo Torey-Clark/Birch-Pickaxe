@@ -1,0 +1,43 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "birchpickaxe",
+    "customModelName": "Normal",
+    "name": "Birch Pickaxe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 0,
+    "efficiency": 2.0,
+    "attackSpeed": 1.2,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 59,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": "Blocks.LOG#2"
+      },
+      {
+        "value": "Blocks.STRIPPED_BIRCH_LOG"
+      },
+      {
+        "value": "Blocks.BIRCH_WOOD"
+      },
+      {
+        "value": "Blocks.STRIPPED_BIRCH_WOOD"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

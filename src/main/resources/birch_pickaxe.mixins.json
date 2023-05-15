@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.mcreator.birchpickaxe.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+	"BirchPickaxeModRepairItemRecipeMixin"  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}
